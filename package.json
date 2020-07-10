@@ -7,12 +7,23 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@mdi/font": "^3.6.95",
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "element-ui": "^2.13.2",
+    "qs": "^6.9.4",
+    "roboto-fontface": "*",
+    "vue": "^2.6.11",
+    "vue-baidu-map": "^0.21.22",
+    "vue-router": "^3.3.4",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-service": "^4.4.0",
+    "lighthouse": "^6.1.1",
+    "vue-cli-plugin-vuetify": "^2.0.6",
     "vue-template-compiler": "^2.6.11"
   }
 }
