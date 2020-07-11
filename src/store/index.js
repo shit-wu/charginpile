@@ -7,7 +7,7 @@ export default new vuex.Store({
 
 	state: {
 		// 储存token
-		Authorization: sessionStorage.getItem('Authorization') ? sessionStorage.getItem('Authorization') : ''
+		Authorization: sessionStorage.getItem('Authorization') ? sessionStorage.getItem('Authorization') : '',
 	},
 
 	mutations: {
@@ -15,6 +15,6 @@ export default new vuex.Store({
 		changeLogin(state, user) {
 			state.Authorization = user.Authorization;
 			sessionStorage.setItem('Authorization', user.Authorization);
-		}
+		},
 	}
 })
