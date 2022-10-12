@@ -22,7 +22,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-service": "^4.4.0",
-    "lighthouse": "^6.1.1",
+    "lighthouse": "^9.6.7",
     "vue-cli-plugin-vuetify": "^2.0.6",
     "vue-template-compiler": "^2.6.11"
   }
